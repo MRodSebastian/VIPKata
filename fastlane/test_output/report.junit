@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='VIPKataTests.xctest' tests='1' failures='0'>
+  <testsuite name='VIPKataTests.VIPKataTests' tests='1' failures='0'>
+    <testcase classname='VIPKataTests.VIPKataTests' name='testExample' time='0.004'/>
+  </testsuite>
+</testsuites>
