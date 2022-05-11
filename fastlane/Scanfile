@@ -7,7 +7,7 @@
 # Remove the # in front of the line to enable the option
 
 project("VIPKata.xcodeproj")
-scheme("VIPKataTests")
+scheme("VIPKata")
 device("iPhone 8")
 open_report(true)
 clean(true)

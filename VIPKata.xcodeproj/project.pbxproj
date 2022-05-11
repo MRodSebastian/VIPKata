@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54605AE7282C18FE009B3D92 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 54605AE6282C18FE009B3D92 /* Nimble */; };
+		54605AEB282C198B009B3D92 /* HeroeMother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AEA282C198B009B3D92 /* HeroeMother.swift */; };
+		54605AED282C1A1A009B3D92 /* ComicMother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AEC282C1A1A009B3D92 /* ComicMother.swift */; };
+		54605AEF282C1A83009B3D92 /* HeroeMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AEE282C1A83009B3D92 /* HeroeMapperTests.swift */; };
+		54605AF1282C1A8E009B3D92 /* ComicMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AF0282C1A8E009B3D92 /* ComicMapperTests.swift */; };
+		54605AF5282C1B30009B3D92 /* ComicDTOMother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AF4282C1B30009B3D92 /* ComicDTOMother.swift */; };
+		54605AF7282C1C6F009B3D92 /* HeroeDTOMother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AF6282C1C6F009B3D92 /* HeroeDTOMother.swift */; };
+		54605AF9282C1E09009B3D92 /* ListMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AF8282C1E09009B3D92 /* ListMapperTests.swift */; };
+		54605AFB282C1E49009B3D92 /* APIResponseDTOMother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AFA282C1E49009B3D92 /* APIResponseDTOMother.swift */; };
 		54C2575E2812A8F800626D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2575D2812A8F800626D05 /* AppDelegate.swift */; };
 		54C257672812A8FA00626D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C257662812A8FA00626D05 /* Assets.xcassets */; };
 		54C2576A2812A8FA00626D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C257682812A8FA00626D05 /* LaunchScreen.storyboard */; };
@@ -90,6 +99,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54605AEA282C198B009B3D92 /* HeroeMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeMother.swift; sourceTree = "<group>"; };
+		54605AEC282C1A1A009B3D92 /* ComicMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicMother.swift; sourceTree = "<group>"; };
+		54605AEE282C1A83009B3D92 /* HeroeMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeMapperTests.swift; sourceTree = "<group>"; };
+		54605AF0282C1A8E009B3D92 /* ComicMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicMapperTests.swift; sourceTree = "<group>"; };
+		54605AF4282C1B30009B3D92 /* ComicDTOMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDTOMother.swift; sourceTree = "<group>"; };
+		54605AF6282C1C6F009B3D92 /* HeroeDTOMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeDTOMother.swift; sourceTree = "<group>"; };
+		54605AF8282C1E09009B3D92 /* ListMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMapperTests.swift; sourceTree = "<group>"; };
+		54605AFA282C1E49009B3D92 /* APIResponseDTOMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseDTOMother.swift; sourceTree = "<group>"; };
 		54C2575A2812A8F800626D05 /* VIPKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C2575D2812A8F800626D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54C257662812A8FA00626D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -171,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54605AE7282C18FE009B3D92 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +202,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54605AE8282C1963009B3D92 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				54605AE9282C1972009B3D92 /* Mothers */,
+				54605AEE282C1A83009B3D92 /* HeroeMapperTests.swift */,
+				54605AF0282C1A8E009B3D92 /* ComicMapperTests.swift */,
+				54605AF8282C1E09009B3D92 /* ListMapperTests.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		54605AE9282C1972009B3D92 /* Mothers */ = {
+			isa = PBXGroup;
+			children = (
+				54605AF3282C1B27009B3D92 /* DTOs */,
+				54605AF2282C1B20009B3D92 /* Domain */,
+			);
+			path = Mothers;
+			sourceTree = "<group>";
+		};
+		54605AF2282C1B20009B3D92 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				54605AEA282C198B009B3D92 /* HeroeMother.swift */,
+				54605AEC282C1A1A009B3D92 /* ComicMother.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		54605AF3282C1B27009B3D92 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				54605AF4282C1B30009B3D92 /* ComicDTOMother.swift */,
+				54605AF6282C1C6F009B3D92 /* HeroeDTOMother.swift */,
+				54605AFA282C1E49009B3D92 /* APIResponseDTOMother.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
 		54C257512812A8F800626D05 = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +280,7 @@
 		54C257732812A8FA00626D05 /* VIPKataTests */ = {
 			isa = PBXGroup;
 			children = (
+				54605AE8282C1963009B3D92 /* Mappers */,
 				54C257742812A8FA00626D05 /* VIPKataTests.swift */,
 			);
 			path = VIPKataTests;
@@ -589,6 +647,9 @@
 				54C257722812A8FA00626D05 /* PBXTargetDependency */,
 			);
 			name = VIPKataTests;
+			packageProductDependencies = (
+				54605AE6282C18FE009B3D92 /* Nimble */,
+			);
 			productName = VIPKataTests;
 			productReference = 54C257702812A8FA00626D05 /* VIPKataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -646,6 +707,7 @@
 			packageReferences = (
 				54C2578D2812A94E00626D05 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				54C257902812A95A00626D05 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				54605AE5282C18FE009B3D92 /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = 54C2575B2812A8F800626D05 /* Products */;
 			projectDirPath = "";
@@ -752,7 +814,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54605AFB282C1E49009B3D92 /* APIResponseDTOMother.swift in Sources */,
+				54605AEF282C1A83009B3D92 /* HeroeMapperTests.swift in Sources */,
+				54605AEB282C198B009B3D92 /* HeroeMother.swift in Sources */,
+				54605AF5282C1B30009B3D92 /* ComicDTOMother.swift in Sources */,
 				54C257752812A8FA00626D05 /* VIPKataTests.swift in Sources */,
+				54605AF9282C1E09009B3D92 /* ListMapperTests.swift in Sources */,
+				54605AF1282C1A8E009B3D92 /* ComicMapperTests.swift in Sources */,
+				54605AED282C1A1A009B3D92 /* ComicMother.swift in Sources */,
+				54605AF7282C1C6F009B3D92 /* HeroeDTOMother.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1100,6 +1170,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		54605AE5282C18FE009B3D92 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
 		54C2578D2812A94E00626D05 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -1119,6 +1197,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		54605AE6282C18FE009B3D92 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54605AE5282C18FE009B3D92 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
 		54C2578E2812A94E00626D05 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 54C2578D2812A94E00626D05 /* XCRemoteSwiftPackageReference "Alamofire" */;

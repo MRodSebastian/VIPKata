@@ -26,7 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -35,16 +36,6 @@
                BlueprintIdentifier = "54C2576F2812A8FA00626D05"
                BuildableName = "VIPKataTests.xctest"
                BlueprintName = "VIPKataTests"
-               ReferencedContainer = "container:VIPKata.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54C257792812A8FA00626D05"
-               BuildableName = "VIPKataUITests.xctest"
-               BlueprintName = "VIPKataUITests"
                ReferencedContainer = "container:VIPKata.xcodeproj">
             </BuildableReference>
          </TestableReference>
