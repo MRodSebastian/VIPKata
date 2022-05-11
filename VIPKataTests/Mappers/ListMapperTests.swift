@@ -30,6 +30,5 @@ class ListMapperTests: XCTestCase {
         expect(sut.results).toNot(beEmpty())
         expect(sut.results.count).to(equal(heroeREsponseDTOList.results?.count))
     }
-    
 }
 
